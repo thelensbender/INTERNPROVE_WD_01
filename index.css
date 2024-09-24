@@ -1,0 +1,794 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+@import url('https://fonts.cdnfonts.com/css/general-sans');
+
+
+body {
+  background-color: #F0F0F0;
+  margin: -8px;
+}
+
+.green {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color:  #004643;
+  padding-bottom: 180px;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 250px;
+  padding: 40px 1vw 30px 1vw;
+  background-color: #004643;
+  position: fixed;
+  transition: background-color 0.3s ease;
+  z-index: 2;
+}
+
+#left {
+  display: flex;
+}
+
+#logo {
+  width: 50px;
+}
+
+#middle {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  backdrop-filter: blur(10px);
+  background-color: #004643be;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.normalbar a {
+  text-decoration: none;
+}
+.sidebar a {
+  width: 100%;
+  text-decoration: none;
+}
+
+#menu-button{
+  display: none;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 100px;
+}
+.tab {
+  display: flex;
+  color: white;
+  text-wrap: nowrap;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 8px;
+  transition: background-color 1ms, color 1ms;
+  border-radius: 4px;
+}
+
+.tab:hover {
+  background-color: white;
+  color: #004643;
+}
+
+#conus {
+  margin: 0px;
+}
+
+.GSS {
+  width: 158px;
+  height: 68px;
+  background-color: transparent;
+  color: white;
+  border: 1px white solid;
+  font-family: 'General Sans', sans-serif;
+  border-radius: 80px;
+  cursor: pointer;
+  transition: opacity 1ms;
+
+}
+
+.GSS:hover {
+  opacity: 0.9;
+}
+
+#grow-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+#grow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 61px;
+  font-family: 'General Sans', sans-serif;
+}
+
+#tit {
+  color: white;
+  font-size: 61px;
+}
+
+#zigzag {
+  display: flex;
+  width: 292px;
+  margin-top: -35px;
+}
+
+#under-grow{
+  display: flex;
+  justify-content: center;
+}
+
+#GS1 {
+  background-color: #D39C47;
+  border: none;
+  margin-right: 20px;
+}
+
+#play {
+  width: 70px;
+}
+
+#img-section {
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+}
+
+#img {
+  width: 80%;
+}
+
+#what-we-do {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  padding: 60px;
+  background-color: #F6F6F6;
+}
+
+#our-what {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#our {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  letter-spacing: 4px;
+  color: #004643;
+}
+
+.what {
+  font-family:'General Sans', sans-serif;
+  font-size: 36px;
+  margin-top: 0;
+  text-wrap: nowrap;
+}
+
+#all-info {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+}
+
+.info {
+  background-color: white;
+  width: 320px;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+#midd {
+  margin: 0 30px;
+}
+
+.info-tit {
+  font-family: 'General Sans', sans-serif;
+  text-wrap: nowrap;
+  font-size: 25px;
+}
+
+.infoo {
+  display: flex;
+  margin: auto;
+  font-family: 'General Sans', sans-serif;
+  text-wrap: wrap;
+  font-size: 16px;
+}
+
+#offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 170px;
+}
+
+#girll {
+  width: 480px;
+  margin-right: 70px;
+}
+
+#girl {
+  width: 100%;
+}
+
+#bgirl {
+  display: flex;
+  flex-direction: column;
+}
+
+#what-exp {
+  text-wrap: wrap;
+  font-family: 'General Sans', sans-serif;
+  letter-spacing: 1px;
+}
+
+#conn {
+  margin-top: -30px;
+}
+
+#lm {
+  background-color: #004643;
+  width: 170px;
+  height: 70px;
+  font-family: 'General Sans', sans-serif;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition:  opacity 1ms;
+  border-radius: 10px;
+}
+
+#lm:hover {
+  opacity: 0.9;
+}
+
+#tes-tits{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#test {
+  color: #F9BC60;
+  font-family: 'General Sans', sans-serif;
+  font-size: 22px;
+}
+
+#ocw {
+  color: white;
+  font-family: 'General Sans', sans-serif;
+  font-size: 44px;
+  margin-top: 0;
+}
+
+#all-tests {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.each-test {
+  background-color: white;
+  width: 500px;
+  padding: 45px;
+}
+
+.stars {
+  width: 140px;
+}
+
+.info-quote {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.client-info {
+  display: flex;
+  align-items: center;
+}
+
+.name-do {
+  margin-left: 15px;
+}
+
+.name {
+  margin: 0;
+  font-family: 'General Sans', sans-serif;
+  font-size: 20px;
+}
+
+.do {
+  margin: 0;
+  font-family: 'General Sans', sans-serif;
+  font-size: 12px;
+}
+
+.testss {
+  line-height: 25px;
+  font-family: 'General Sans', sans-serif;
+  text-wrap: wrap;
+  margin-top: -1vw;
+}
+
+.quote {
+  font-family:"Allerta", sans-serif;
+  color: #A2D5AC;
+  font-size: 147px;
+}
+
+#dotss {
+  margin-top: 120px;
+  width: 70px;
+}
+
+@media (min-width:2559px) {
+  .green {
+    padding-bottom: 360px;
+  }
+  #logo {
+    width: 150px;
+  }
+  .tab {
+  font-size: 35px;
+  }
+  .GSS {
+    width: 308px;
+    height: 136px;
+    font-size: 26px;
+  }
+  #grow-section {
+    margin-top: 300px;
+  }
+  #title, 
+  #tit {
+    font-size: 101px;
+  }
+  #zigzag {
+    width: 500px;
+  }
+  #play {
+    width: 140px;
+  }
+  #img-section {
+    margin-top: -250px;
+  }
+  #our {
+    font-size: 45px;
+    letter-spacing: 8px;
+  }
+  .what {
+    font-size: 48px;
+  }
+  #all-info {
+    padding-bottom: 70px;
+    margin-top: 40px;
+  }
+  .info {
+    width: 600px;
+    padding: 60px;
+  }
+  #midd {
+    margin: 0 30px;
+  }
+  .info-tit {
+    font-size: 45px;
+  }
+  .infoo,
+  .con {
+    font-size: 32px;
+  }
+
+  #girll {
+    width: 900px;
+    margin-right: 120px;
+  }
+  #what-exp,
+  #connn {
+    font-size: 37px;
+  }
+  #lm {
+    width: 320px;
+    height: 120px;
+    font-size: 26px;
+  }
+  #test {
+    font-size: 45px;
+  }
+  #ocw {
+    font-size: 65px;
+  }
+  #all-tests{
+    gap: 40px;
+  }
+  .each-test {
+    width: 1000px;
+  }
+  .stars {
+    width: 200px;
+  }
+  .pics {
+    width: 100px;
+  }
+  .ppics{
+    width: 100%;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .do {
+    font-size: 25px;
+  }
+  .quote {
+    font-size: 200px;
+  }
+  .testss {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  #dotss {
+    width: 140px;
+  }
+}
+@media (min-width:1023px) and (max-width:2558px) {
+  #header {
+    gap: 100px;
+  }
+  #what-we-do {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding: 50px;
+  }
+  #all-info {
+    margin-top: 0;
+  }
+  nav ul {
+    gap: 40px;
+  }
+  .info {
+    width: 300px;
+  }
+  #midd {
+    margin: 0 25px;
+  }
+  .info-tit {
+    font-size: 25px;
+  }
+  .infoo {
+    font-size: 16px;
+  }
+  #offer {
+    margin-bottom: 80px;
+  }
+  #girll {
+    width: 350px;
+    margin-right: 50px;
+  }
+  #what-exp {
+    max-width: 600px;
+  }
+  .each-test {
+    width: 300px;
+  }
+  .stars{
+    margin-bottom: -40px;
+    width: 100px;
+  }
+  #dotss {
+    width: 70px;
+  }
+}
+@media (min-width:767px) and (max-width:1022px){
+  .green {
+    width: 100%;
+    padding-bottom: 90px;
+  }
+  #header{
+    width: 100%;
+    gap: 50px;
+  }
+  nav ul {
+    gap: 20px;
+  }
+  #logo {
+    width: 60px;
+  }
+  .tab {
+  font-size: 15px;
+  }
+  .GSS {
+    width: 110px;
+    height: 55px;
+    font-size: 12px;
+  }
+  #grow-section {
+    margin-top: 170px;
+  }
+  #title, 
+  #tit {
+    font-size: 40px;
+  }
+  #zigzag {
+    margin-top: -20px;
+    width: 230px;
+  }
+  #play {
+    width: 55px;
+  }
+  #img-section {
+    margin-top: -70px;
+  }
+  #our {
+    font-size: 16px;
+    letter-spacing: 6px;
+  }
+  .what {
+    font-size: 22px;
+  }
+  #conn {
+    margin-top: -20px;
+  }
+  #all-info {
+    padding-bottom: 70px;
+    margin-top: 40px;
+  }
+  .info {
+    width: 200px;
+    padding: 25px;
+  }
+  #midd {
+    margin: 0 30px;
+  }
+  .info-tit {
+    font-size: 19px;
+  }
+  .infoo,
+  .con {
+    font-size: 12px;
+  }
+  #offer {
+    padding: 0 40px;
+  }
+  #girll {
+    width: 300px;
+    margin-right: 20px;
+  }
+  #what-exp,
+  #connn {
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  #lm {
+    width: 120px;
+    height: 60px;
+    font-size: 13px;
+  }
+  #test {
+    font-size: 20px;
+  }
+  #ocw {
+    font-size: 20px;
+  }
+  #all-tests{
+    gap: 40px;
+  }
+  .each-test {
+    width: 280px;
+    padding: 20px;
+  }
+  .stars {
+    width: 90px;
+  }
+  .pics {
+    width: 50px;
+  }
+  .ppics{
+    width: 100%;
+  }
+  .name {
+    font-size: 15px;
+  }
+  .do {
+    font-size: 11px;
+  }
+  .quote {
+    font-size: 100px;
+  }
+  .testss {
+    font-size: 10px;
+    line-height: 45px;
+  }
+  #dotss {
+    width: 55px;
+  }
+  .testss {
+    line-height: 15px;
+  }
+}
+@media (min-width:200px) and (max-width:426px) {
+  .hideonmobile {
+    display: none;
+  }
+  #menu-button{
+    display: block;
+  }
+  .green {
+    padding-bottom: 80px;
+  }
+  #title, 
+  #tit {
+    font-size: 8vw;
+  }
+  #header {
+    gap: 40vw;
+    padding: 30px;
+  }
+  #grow-section {
+    margin-top: 160px;
+  }
+  #zigzag {
+    width: 130px;
+    margin-top: 0;
+  }
+  #GS1 {
+    width: 27vw;
+    height: 13vw;
+    font-size: 9px;
+    margin-right: 15px;
+  }
+  #play {
+    width: 13vw;
+  }
+  #img-section {
+    margin-top: -60px;
+  }
+  #what-we-do {
+    margin-top: 0;
+    margin-bottom: 1px;
+    padding: 30px 30px 0 30px;
+  }
+  #all-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 0;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  .info {
+    width: 80vw;
+    padding:0 20px 20px 20px;
+  }
+  #midd {
+    margin: 0 ;
+  }
+  .info-tit{
+    font-size: 19px;
+  }
+  #offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  .infoo {
+    font-size: 13px;
+  }
+  #girll {
+    display: flex;
+    margin-right: 0;
+    width: 70%;
+  }
+  #bgirl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #lm {
+    width: 110px;
+    height: 40px;
+    font-size: 11px;
+  }
+  #all-tests {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  #our {
+    font-size: 15px;
+  }
+  .what {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  #what-exp {
+    font-size: 12px;
+    margin-top: -10px;
+    max-width: 300px;
+  }
+  #conn {
+    line-height: 30px;
+  }
+  #test {
+    font-size: 17px;
+  }
+  #ocw {
+    font-size: 25px;
+  }
+  #all-tests {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  .each-test {
+    background-color: white;
+    width: 250px;
+  }
+  .stars {
+    margin-bottom: -50px;
+    width: 70px;
+  }
+  .name {
+    font-size: 17px;
+  }
+  .do {
+    font-size: 14px;
+  }
+  .testss {
+    font-size: 11px;
+    margin-top: -15vw;
+    line-height: 14px;
+  }
+  #dotss {
+    width: 45px;
+    margin-top: 50px;
+  }
+}
