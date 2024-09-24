@@ -45,7 +45,7 @@ body {
   top: 0;
   right: 0;
   height: 100vh;
-  width: 250px;
+  width: 35vw;
   z-index: 999;
   backdrop-filter: blur(10px);
   background-color: #004643be;
@@ -110,7 +110,6 @@ nav ul {
   border-radius: 80px;
   cursor: pointer;
   transition: opacity 1ms;
-
 }
 
 .GSS:hover {
@@ -470,7 +469,7 @@ nav ul {
     width: 140px;
   }
 }
-@media (min-width:1023px) and (max-width:2558px) {
+@media (min-width:1023px) and (max-width:2558.999px) {
   #header {
     gap: 100px;
   }
@@ -518,7 +517,7 @@ nav ul {
     width: 70px;
   }
 }
-@media (min-width:767px) and (max-width:1022px){
+@media (min-width:767px) and (max-width:1022.999px){
   .green {
     width: 100%;
     padding-bottom: 90px;
@@ -645,7 +644,7 @@ nav ul {
     line-height: 15px;
   }
 }
-@media (min-width:200px) and (max-width:426px) {
+@media (min-width:200px) and (max-width:766.999px) {
   .hideonmobile {
     display: none;
   }
@@ -657,27 +656,33 @@ nav ul {
   }
   #title, 
   #tit {
-    font-size: 8vw;
+    font-size: 6vw;
   }
   #header {
-    gap: 40vw;
+    gap: 50vw;
     padding: 30px;
+  }
+  nav ul {
+    gap: 8vw;
+  }
+  #close {
+    margin-top: 5vw;
   }
   #grow-section {
     margin-top: 160px;
   }
   #zigzag {
-    width: 130px;
+    width: 35vw;
     margin-top: 0;
   }
   #GS1 {
-    width: 27vw;
-    height: 13vw;
-    font-size: 9px;
+    width: 18vw;
+    height: 8vw;
+    font-size: 1.5vw;
     margin-right: 15px;
   }
   #play {
-    width: 13vw;
+    width: 8vw;
   }
   #img-section {
     margin-top: -60px;
@@ -697,7 +702,10 @@ nav ul {
     padding-bottom: 50px;
   }
   .info {
-    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
     padding:0 20px 20px 20px;
   }
   #midd {
@@ -714,12 +722,17 @@ nav ul {
     margin-bottom: 80px;
   }
   .infoo {
+    max-width: 300px;
     font-size: 13px;
   }
   #girll {
     display: flex;
     margin-right: 0;
-    width: 70%;
+    width: 60vw;
+  }
+  #girl {
+    display: flex;
+    border-radius: 30vw;
   }
   #bgirl {
     display: flex;
@@ -773,18 +786,18 @@ nav ul {
     width: 250px;
   }
   .stars {
-    margin-bottom: -50px;
+    margin-bottom: -5vw;
     width: 70px;
   }
   .name {
-    font-size: 17px;
+    font-size: 2vw;
   }
   .do {
-    font-size: 14px;
+    font-size: 1.5vw;
   }
   .testss {
     font-size: 11px;
-    margin-top: -15vw;
+    margin-top: -9vw;
     line-height: 14px;
   }
   #dotss {
